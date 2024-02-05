@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    images: {
+        remotePatterns: ["cdn.imagin.studio"]
+    }
+};
 
 export default nextConfig;
